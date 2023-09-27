@@ -14,3 +14,9 @@ login(json.author)
 console.log('the answer is ' + answer)
 console.log(moment().format('MMMM Do YYYY, h:mm:ss a'))
 
+// dynamic import
+import('./foo.js').then((module) => {
+  module.foo()
+})
+
+
