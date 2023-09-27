@@ -1,5 +1,5 @@
-import {login} from './login.js'
-import {message} from './message.js'
+import {login} from './login'
+import {message} from './message'
 import answer from 'the-answer'
 import moment from 'moment'
 
@@ -15,7 +15,7 @@ console.log('the answer is ' + answer)
 console.log(moment().format('MMMM Do YYYY, h:mm:ss a'))
 
 // dynamic import
-import('./foo.js').then((module) => {
+import('./foo').then((module) => {
   module.foo()
 })
 
