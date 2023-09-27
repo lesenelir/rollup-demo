@@ -1,4 +1,4 @@
 
-export const login = () => {
-  console.log('login')
+export const login = (name) => {
+  console.log(name)
 }
